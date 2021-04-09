@@ -30,6 +30,9 @@ class LoginViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = true
+        errorLabel.text = ""
+        emailTextField.text = ""
+        passwordTextField.text = ""
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -41,7 +44,8 @@ class LoginViewController: UIViewController {
         loginButton.layer.cornerRadius = 8
         registerButton.layer.cornerRadius = 8
         
-        // TODO change textField from black color to white in dark mode
+        UIController.textFileldUpdate(textField: emailTextField, placeholder: "e-mail")
+        UIController.textFileldUpdate(textField: passwordTextField, placeholder: "password")
     }
     
     @IBAction func loginPressed(_ sender: UIButton) {
@@ -58,8 +62,6 @@ extension LoginViewController: UserManagerDelegate {
     // navigate to chat
     func didPassed() {
         DispatchQueue.main.async {
-            self.emailTextField.text = ""
-            self.passwordTextField.text = ""
             self.performSegue(withIdentifier: K.loginToChatSegue, sender: self)
         }
     }

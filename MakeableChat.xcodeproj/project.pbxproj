@@ -14,6 +14,7 @@
 		56132589261C41F9001CC3B9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56132588261C41F9001CC3B9 /* RegisterViewController.swift */; };
 		5613258C261C4685001CC3B9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5613258B261C4685001CC3B9 /* ChatViewController.swift */; };
 		5613258F261C4768001CC3B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5613258E261C4768001CC3B9 /* Constants.swift */; };
+		5640B72D261D7FA300537D95 /* UIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5640B72C261D7FA300537D95 /* UIController.swift */; };
 		5664456B261C2C5400608841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664456A261C2C5400608841 /* AppDelegate.swift */; };
 		5664456D261C2C5400608841 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664456C261C2C5400608841 /* SceneDelegate.swift */; };
 		5664456F261C2C5400608841 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664456E261C2C5400608841 /* LoginViewController.swift */; };
@@ -33,6 +34,7 @@
 		56132588261C41F9001CC3B9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		5613258B261C4685001CC3B9 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		5613258E261C4768001CC3B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5640B72C261D7FA300537D95 /* UIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIController.swift; sourceTree = "<group>"; };
 		56644567261C2C5400608841 /* MakeableChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeableChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5664456A261C2C5400608841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5664456C261C2C5400608841 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				5664456E261C2C5400608841 /* LoginViewController.swift */,
 				56132588261C41F9001CC3B9 /* RegisterViewController.swift */,
 				5613258B261C4685001CC3B9 /* ChatViewController.swift */,
+				5640B72C261D7FA300537D95 /* UIController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				56122E80261C52B000869D4C /* DataManager.swift in Sources */,
 				56132589261C41F9001CC3B9 /* RegisterViewController.swift in Sources */,
 				56122E83261C52FE00869D4C /* Message.swift in Sources */,
+				5640B72D261D7FA300537D95 /* UIController.swift in Sources */,
 				5664456B261C2C5400608841 /* AppDelegate.swift in Sources */,
 				56E91BC6261C391D00F69777 /* UserManager.swift in Sources */,
 				5613258F261C4768001CC3B9 /* Constants.swift in Sources */,

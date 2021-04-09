@@ -31,8 +31,9 @@ class ChatViewController: UIViewController {
     func updateUI() {
         navigationItem.hidesBackButton = true
         
-        // TODO logo on navigationbar
-        // TODO textField color in dark mode
+        UIController.textFileldUpdate(textField: messageTextField, placeholder: "")
+        
+        self.navigationItem.titleView = UIController.setLogo()
     }
     
     @IBAction func logoutPressed(_ sender: UIBarButtonItem) {

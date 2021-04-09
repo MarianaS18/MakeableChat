@@ -31,8 +31,11 @@ class RegisterViewController: UIViewController {
     func updateUI() {
         registerButton.layer.cornerRadius = 8
         
-        // TODO logo to the navigationbar
-        // TODO textField color on dark mode
+        UIController.textFileldUpdate(textField: usernameTextField, placeholder: "username")
+        UIController.textFileldUpdate(textField: emailTextField, placeholder: "e-mail")
+        UIController.textFileldUpdate(textField: passwordTextField, placeholder: "password")
+        
+        self.navigationItem.titleView = UIController.setLogo()
     }
  
     @IBAction func registerPressed(_ sender: UIButton) {
